@@ -10,7 +10,7 @@ $map = array(
   // This one script can be the configuration for many bots.
   "listening_bot_id" => array(
     // This key is a regular expression to match incoming messages against
-    "/[eE]8/" => array(
+    "/.*/" => array(
       // These keys are the IDs of the bots that should send the message if it matches the above regex
       "broadcast_bot_id"
     )
